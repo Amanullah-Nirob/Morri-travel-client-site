@@ -1,0 +1,21 @@
+.Buyer.card {
+    border: 0;
+    text-align: start;
+    background: #121214;
+    color: #fff;
+}
+
+.Buyer.card p {
+    margin: 0;
+}
+
+.container.manageorder {
+    background: #17171a;
+    padding: 59px 42px;
+}
+
+@media (max-width:768px) {
+    .container.manageorder {
+        padding: 59px 24px;
+    }
+}

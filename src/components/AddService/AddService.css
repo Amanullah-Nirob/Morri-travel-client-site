@@ -1,0 +1,35 @@
+.addservices form{
+display: flex;
+flex-direction: column;
+width: 50%;
+margin: auto;
+
+}
+.addservices form input{
+  margin: 10px;
+  padding: 10px
+}
+.addservices{
+ color: #fff;
+}
+.addservices.container {
+  background: #17171a;
+  padding: 80px 0px;
+}
+img.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+@media (max-width:768px) {
+  .addservices form {
+    width: 100%;
+}
+.addservices.container {
+  padding: 80px 5px;
+}
+img.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+}

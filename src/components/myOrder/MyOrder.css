@@ -1,0 +1,35 @@
+.mycard.card {
+    border: 0;
+    text-align: start;
+    background: #121214;
+    color: #fff;
+}
+
+.mycard.card p {
+    margin: 0;
+}
+.container.myorder {
+    background: #1d1d20;
+    padding: 68px 70px;
+}
+.mycard.card button {
+    border: 1px solid #29d5d3;
+    background: transparent;
+    color: #fff;
+    padding: 6px 22px;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+@media (max-width:768px) {
+    .container.myorder {
+        padding: 68px 23px;
+    }
+}
+
+
+
+
+
+

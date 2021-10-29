@@ -1,0 +1,379 @@
+
+.background-img {
+    height: 87vh;
+    overflow: hidden;
+    border-radius: 17px;
+    margin-top: 2px;
+    background-color: black;
+    background-image: linear-gradient(#00000070,#00000069),url(http://askproject.net/morii/wp-content/uploads/sites/8/2021/07/aurora-borealis-over-the-snowy-mountains-and-sandy-43YZEUU.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:center;
+   position: relative;
+}
+.home-title {
+    position: absolute;
+    width: 56%;
+    left: 23%;
+    top: 30%;
+    color: #fff !important;
+}
+.home-title h3{
+    -webkit-text-stroke-color: #FFFFFFCF;
+    -webkit-text-fill-color: #02010100;
+    -webkit-text-stroke-width: 1px;
+    font-weight: 900;
+    font-size: 49px;
+    text-transform: capitalize;
+}
+.home-title h1 {
+    font-size: 75px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+button.navbar-toggler {
+    border: 1px solid #fff;
+}
+.navbars{
+    display: none;
+}
+
+.homeserviess.card {
+    background: #121214;
+    border: 0;
+    text-align: left;
+    border-radius: 8px;
+}
+.container.hsbcolor {
+    background: #17171a;
+    padding: 100px 75px;
+    margin-top: 60px;
+}
+.stitle.card-title.h5 {
+    color: #fff;
+}
+
+p.sdis.card-text {
+    color: #8f8f8f;
+}
+
+.homeServices {
+    padding: 90px 0;
+}
+.services-details img {
+    width: 100%;
+}
+.services-details{
+    color: #fff;
+}
+.orderplace form input {
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.orderplace form  {
+display: flex;
+flex-direction: column;
+}
+button.home-benner-btn {
+    border: 1px solid #29d5d3;
+    background: transparent;
+    color: #fff;
+    padding: 14px 52px;
+    border-radius: 27px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+.homeserviess.card a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #29d5d3;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.titleText h4 {
+    color: #29d5d3;
+}
+
+.titleText h1 {
+    color: #fff;
+    margin-bottom: 44px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.container.axtra-information-main {
+    background: #17171a;
+    padding-top: 40px;
+    padding-bottom: 8px;
+    border-radius: 12px;
+}
+.axtra-information-items i {
+    color: #29d5d3;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.axtra-information-items {
+    margin-bottom: 29px;
+}
+.axtra-information {
+    position: absolute;
+    width: 58%;
+    left: 21.1%;
+    bottom: -92px;
+}
+.axtra-information-items h4 {
+    color: #fff;
+}
+
+.axtra-information-items p {
+    color: #838383;
+}
+
+.main-home {
+    position: relative;
+    margin-bottom: 154px;
+
+}
+
+.intruduction-area-left-text {
+    text-align: start;
+}
+
+.intruduction-area-left-text h5 {
+    color: #29d5d3;
+   
+}
+
+.intruduction-area-left-text h1 {
+    font-size: 52px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.intruduction-area-left-text p {
+    color: #dddddd85;
+    margin-top: 20px;
+    width: 476px;
+}
+
+.intruduction-area-left-text button {
+    border: 1px solid #29d5d3;
+    background: transparent;
+    padding: 13px 50px;
+    border-radius: 30px;
+    color: #ffffffd1;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: 34px;
+}
+.intruduction-area-right-images {
+    position: relative;
+}
+.first-img img {
+    width: 54%;
+    border-radius: 10px;
+}
+.second-img img {
+    width: 55%;
+    border-radius: 10px;
+    position: absolute;
+    left: -20px;
+    top: 96px;
+    z-index: -1;
+}
+
+.third-img img {
+    width: 52%;
+    border-radius: 11px;
+    position: absolute;
+    bottom: -132px;
+    left: 298px;
+}
+.intruduction-area {
+    width: 60%;
+    margin: auto;
+    padding:90px 0
+}
+
+.backgroundImg{
+    background-image: linear-gradient(#00000078,#0000008a),url(http://askproject.net/morii/wp-content/uploads/sites/8/2021/07/freedom-winter-mountain-man-PGN56CK-2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center;
+background-attachment: fixed;
+}
+
+
+.backgroundImg-text {
+    padding: 160px 0;
+}
+
+.backgroundImg-text h1 {
+    color: #fff;
+    font-size: 31px;
+    font-style: italic;
+}
+
+.backgroundImg-text h4 {
+    color: #ddddddba;
+}
+.container.experiance-main {
+    background: #17171a;
+    padding: 109px 77px 110px 77px;
+    margin-top: 110px;
+}
+
+.expreancBox i {
+    color: #29d5d3;
+    font-size: 43px;
+    margin-bottom: 16px;
+    margin-top: 40px;
+}
+.expreancBox {
+    background: #121214;
+    padding: 6px 25px;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+}
+.experiance-text {
+    padding-bottom: 23px;
+}
+
+.experiance-text h4 {
+    color: #fff;
+}
+
+.experiance-text p {
+    color: #dddddd91;
+}
+.experiuns-btn button {
+    border: 1px solid #29d5d3;
+    background: transparent;
+    color: #fff;
+    padding: 13px 40px;
+    border-radius: 29px;
+    margin-top: 58px;
+    font-weight: 500;
+}
+.expreancBox:hover{
+    border: 1px solid #29d5d3;
+}
+@media (max-width:768px) {
+    .home-title {
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        top: 19%;
+        color: #fff !important;
+    }
+    .home-title h3 {
+        font-size: 37px;
+
+    }
+    .home-title h1 {
+        font-size: 49px;
+    }
+    .home-title p {
+        padding: 0 39px;
+        text-transform: capitalize;
+    }
+    .home-title p span {
+        display: none;
+    }
+    .navbars{
+        display: block;
+    }
+    .container.hsbcolor {
+        padding: 40px 20px;
+    }
+    .titleText h1 {
+        font-size: 39px;
+        font-weight: 400;
+    }
+    .homeserviess.card {
+        border-radius: 10px;
+    }
+    .axtra-information {
+        position: absolute;
+        width: 90%;
+        left: 5.1%;
+        bottom: -472px;
+    }
+    .homeServices {
+        padding: 90px 0;
+        margin-top: 375px;
+    }
+    .intruduction-area {
+        width: 100%;
+        padding: 340px 0 100px 7px;
+    }
+    .intruduction-area-left-text p {
+        width: 100%;
+    }
+    .intruduction-area-left-text {
+        text-align: center;
+        margin-top: 18px;
+    }
+    .intruduction-area-left-text h1 {
+        font-size: 40px;
+    }
+
+    .intruduction-area-left-text button {
+        margin-top: 17px;
+    }
+    .second-img img {
+        width: 98%;
+        left: 1px;
+     
+    }
+    .first-img img {
+        width: 60%;
+        left: 0;
+        bottom: -156px;
+        position: absolute;
+    }
+    .third-img img {
+        width: 90%;
+        border-radius: 11px;
+        position: absolute;
+        left: 18px;
+        top: 356px;
+    }
+    .intruduction-area-right-images {
+        margin-top: 128px;
+    }
+    .backgroundImg-text {
+        padding: 106px 0;
+    }
+
+    .backgroundImg-text h1 {
+        font-size: 26px;
+    }
+    .backgroundImg-text h4 {
+        margin-top: 26px;
+    }
+    .container.experiance-main {
+        padding: 38px 19px 52px 19px;
+        margin-top: 47px;
+
+    }
+    .expreancBox {
+        margin-bottom: 19px;
+    }
+    .experiuns-btn button {
+        margin-top: 20px;
+    }
+    .titleText.a h1 {
+        font-size: 35px;
+    }
+ 
+}
+
+
+
+
+
+

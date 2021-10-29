@@ -1,0 +1,33 @@
+ul.navbar-nav.m-auto li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ddd;
+    font-weight: 500;
+    margin-left: 37px;
+}
+.header {
+    padding: 10px;
+    margin-bottom: 8px;
+}
+button.logoutbtn {
+    border: 1px solid #29d9d5;
+    background: transparent;
+    color: #fff;
+    padding: 8px 32px;
+    border-radius: 20px;
+}
+@media (max-width:768px) {
+    button.navbar-toggler {
+        padding: 0;
+    }
+    
+    .navbars i {
+        color: #fff;
+        padding: 5px;
+        font-size: 23px;
+    }
+    
+    .navbars {
+        padding: 1px 7px;
+    }
+}
