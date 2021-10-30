@@ -30,13 +30,7 @@ const Header = () => {
         </li>
          </div>}
          
-        <li class="nav-item">
-        <NavLink to="/service"activeStyle={{fontWeight: "bold",color: "#29d9d5"}}>service</NavLink>
-        </li>
-    
-        <li class="nav-item">
-        <NavLink to="/contact"activeStyle={{fontWeight: "bold",color: "#29d9d5"}}>contact</NavLink>
-        </li>
+        
         <li>
 
           {user?.email&&<div>
