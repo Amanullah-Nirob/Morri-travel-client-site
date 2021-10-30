@@ -1,7 +1,7 @@
 # Morii Travel Website
 
 This project was bootstrapped with [Morii Travel website clint side (live link)](https://morii-travel-f201a.web.app/).
-This project was bootstrapped with [Morii Travel website server side (code link)](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-nirub-khan).
+This project was bootstrapped with [Morii Travel website server side (code link)](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-nirub-khan)
      
 ## Available information 1
 ### What is this website? Why would you visit this website?
