@@ -7,7 +7,7 @@ const ManageAllOrders = () => {
 const [reload,setReload]=useState(false)
 
    useEffect(()=>{
-       fetch(`http://localhost:5000/orders`)
+       fetch(`https://whispering-springs-16614.herokuapp.com/orders`)
        .then(res=>res.json())
        .then(data=>setMultipleBuyers(data))
    },[reload])
@@ -16,7 +16,7 @@ const [reload,setReload]=useState(false)
    const myOrderDeleteFunction=(id)=>{
     const confirmDeletealert=window.confirm(`are you sure you want to delete?`)
     if(confirmDeletealert){
-        fetch(`http://localhost:5000/orders/${id}`,{
+        fetch(`https://whispering-springs-16614.herokuapp.com/orders/${id}`,{
             method: 'delete',
        })
        .then(res=>res.json())
@@ -32,7 +32,7 @@ const [reload,setReload]=useState(false)
 
     //  update function
     const updateFunction=(id)=>{
-        fetch(`http://localhost:5000/orders/${id}`,{
+        fetch(`https://whispering-springs-16614.herokuapp.com/orders/${id}`,{
             method: 'put',
 
         })
@@ -52,8 +52,12 @@ const [reload,setReload]=useState(false)
            <div className='titleText'>
                    <h4>Manage Orders</h4>
                <h1>Manage All Orders</h1>
+               {
+                   multipleBuyers.length===0&& <h5 className='text-info mb-5'>No orders</h5>
+               }
                </div>
-           <Row xs={1} md={4} className="g-4">
+ {multipleBuyers.length===0?<div class="spinner-border text-info" role="status"><span class="visually-hidden">Loading...</span></div>
+     :  <Row xs={1} md={4} className="g-4">
           {
               multipleBuyers.map((Buyer)=><Col>
               <Card className='Buyer'>
@@ -74,7 +78,7 @@ const [reload,setReload]=useState(false)
               </Card>
             </Col>)
           }
-           </Row>
+           </Row>}
         </div>
     );
 };

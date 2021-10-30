@@ -24,9 +24,12 @@ const Header = () => {
         <NavLink to="/home"activeStyle={{fontWeight: "bold",color: "#29d9d5"}}>Home</NavLink>
         </li>
     
-        <li class="nav-item">
+        {user?.email&&<div>
+         <li class="nav-item">
         <NavLink to="/manage"activeStyle={{fontWeight: "bold",color: "#29d9d5"}}>Manage all order</NavLink>
         </li>
+         </div>}
+         
         <li class="nav-item">
         <NavLink to="/service"activeStyle={{fontWeight: "bold",color: "#29d9d5"}}>service</NavLink>
         </li>
@@ -52,7 +55,7 @@ const Header = () => {
         </li>
 
       </ul>
-
+   { user?.email&&<p className='text-warning m-0 me-2'>{user?.displayName}</p>}
    {user?.email? <button className='logoutbtn' onClick={logoutFunction}>Log out</button>
    : <div>
     <Link to='/login'>

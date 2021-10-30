@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Morii Travel Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Morii Travel website clint side (live link)](https://morii-travel-f201a.web.app/).
+This project was bootstrapped with [Morii Travel website server side (code link)](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-nirub-khan).
+     
+## Available information 1
+### What is this website? Why would you visit this website?
+*This website is a tourism related website called Maury Travel World. Through this website you can enjoy your life a lot. You will get many benefits in terms of services and our website is one of the most tourism related websites in the world.*
 
-## Available Scripts
 
-In the project directory, you can run:
+## Available information 2
+### What is the goal and purpose of this website?
+*The aim and purpose of this website is to provide tourism related help to the public and provide the best service through which every person can enjoy and receive many services. Our service is one of the best tourism related services in the world where only the biggest celebrities of the world come here. If you want to enjoy the tourism life, you can visit our website*
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Available information 3
+### Why would you visit this web site and connect with us?
+*If you are a travel lover, you love to travel, you are a traveling soul, you are a planter, you are a plane, if you are, and you are thinking, you will fall, you will fall, you will go today, you can contact us without any worries, we are ready to help you. You will be able to enjoy your travel life a lot through us and you will be able to enjoy your life a lot by receiving many good services and we are fully prepared to provide you the service.*
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Available information 4
+### If you are planning a tour for the first time in your life, why contact us for the first time?
+*If you are planning a tour for the first time in your life and if you want to go on a tour for the first time in the country or abroad, then by contacting us you can help your life a lot. Our service is one of the best in the world*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Available information 5
+### Who is our website to provide services to?
+*For those who love to tour and love to enjoy the tourism life, basically by visiting our website you will get the service you want. You will get a guide. We have qualified guides here. You can contact us if you want to get rid of it or you love Tur, and by contacting us you can get rid of it as much as you want and we can help you to improve your tourism life. And there is a thorough preparation through the best service to help*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

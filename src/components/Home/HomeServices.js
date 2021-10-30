@@ -6,7 +6,7 @@ const HomeServices = () => {
 
  const [servises,setServices]=useState([])
 useEffect(()=>{
-    fetch(`http://localhost:5000/services`)
+    fetch(`https://whispering-springs-16614.herokuapp.com/services`)
     .then(response=>response.json())
     .then(data=>setServices(data))
 },[])
@@ -19,11 +19,12 @@ useEffect(()=>{
                    <h4>Our Services</h4>
                <h1>Our Best Services</h1>
                </div>
-           <Row xs={1} md={4} className="g-4">
+          {servises.length===0? <div class="spinner-border text-info" role="status"><span class="visually-hidden">Loading...</span></div>:
+          <Row xs={1} md={4} className="g-4">
                 {
                   servises.map((x)=><HomeService key={x._id} card={x}/>)  
                 }
-           </Row>
+           </Row>}
            </div>
         </div>
     );

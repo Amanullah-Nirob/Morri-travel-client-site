@@ -1,0 +1,12 @@
+.orderplase {
+    padding: 50px;
+}
+.services-details {
+    color: #fff;
+    margin-top: 54px;
+}
+@media (max-width:768px) {
+    .orderplase {
+        padding: 0px;
+    }
+}

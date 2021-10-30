@@ -9,7 +9,7 @@ const Intruduction = () => {
                     <div className='intruduction-area-left-text'>
                     <h5>WELCOME TO MORII</h5>
                     <h1>Nature's Majesty Awaits You</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempor nunc non neque euismod porttitor. Nullam lacus est, tincidunt eget sapien eget, maximus convallis massa. Curabitur quis</p>
+                    <p>The Mori Travel website is one of the tourism related websites that allows you to travel anywhere in the world, get a practically good guide and get around with a professional assistant.</p>
                     <button>learn more</button>
                     </div>
                 </div>

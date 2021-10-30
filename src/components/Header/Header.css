@@ -30,4 +30,32 @@ button.logoutbtn {
     .navbars {
         padding: 1px 7px;
     }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        height: 395px;
+        background: #17171a;
+        border-radius: 8px;
+        margin-top: 8px;
+        text-align: start;
+    }
+    ul.navbar-nav.m-auto li {
+        margin-top: 13px;
+        font-size: 16px;
+        border-bottom: 1px solid;
+    }
+    ul.navbar-nav.m-auto li a{
+        margin-left: 0px;
+        margin-bottom: 11px;
+        display: block;
+    }
+    ul.navbar-nav.m-auto {
+        padding: 10px 14px;
+    }
+    button.logoutbtn {
+        display: block;
+        margin: auto;
+        margin-top: 13px;
+    }
 }

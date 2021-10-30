@@ -11,6 +11,7 @@ import MyOrder from './components/myOrder/MyOrder';
 import ManageAllOrders from './components/ManageAllOrders/ManageAllOrders';
 import AddService from './components/AddService/AddService';
 import Footer from './components/Footer/Footer';
+import NotFound from './components/NotFound/NotFound';
 
 
 function App() {
@@ -31,19 +32,24 @@ function App() {
 <Route path='/login'>
 <LogIn></LogIn>
 </Route>
-<Route path='/myOrder'>
+<PrivateRoute path='/myOrder'>
 <MyOrder></MyOrder>
-</Route>
-<Route path='/manage'>
+</PrivateRoute>
+<PrivateRoute path='/manage'>
 <ManageAllOrders></ManageAllOrders>
-</Route>
-<Route path='/addService'>
+</PrivateRoute>
+<PrivateRoute path='/addService'>
 <AddService></AddService>
-</Route>
+</PrivateRoute>
 
 <PrivateRoute path='/HomeServices/:id'>
 <OrderPlace></OrderPlace>
 </PrivateRoute>
+
+<Route path='*'>
+<NotFound></NotFound>
+</Route>
+
 </Switch>
 
 </BrowserRouter>

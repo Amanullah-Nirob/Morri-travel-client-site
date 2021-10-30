@@ -261,6 +261,275 @@ background-attachment: fixed;
 .expreancBox:hover{
     border: 1px solid #29d5d3;
 }
+
+.team-guide-first-text {
+    text-align: left;
+}
+
+.team-guide-first-text h5 {
+    color: #29d5d3;
+}
+
+.team-guide-first-text h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 64px;
+    margin-bottom: 17px;
+    margin-top: 20px;
+    width: 280px;
+
+}
+
+.team-guide-first-text p {
+    color: #dddddda8;
+}
+
+.team-guide-second-image img {
+    width: 100%;
+    border-radius: 13px;
+   
+}
+.team-guide-second-image {
+    position: relative;
+}
+
+.intro-title {
+    background: #17171a;
+    width: 89%;
+    position: absolute;
+    bottom: -60px;
+    border-radius: 10px;
+    left: 23px;
+    padding: 5px 0;
+}
+
+
+.intro-title h5 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 9px;
+    margin-top: 13px;
+ 
+}
+
+.intro-title p {
+    color: #ddddddba;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.social-ic {
+    display: flex;
+    margin-bottom: 19px;
+    justify-content: center;
+}
+
+.social-ic i {
+    margin-right: 17px;
+    margin-left: 16px;
+    color: #29d5d3;
+}
+.team-guide {
+    padding: 118px 0px;
+    margin-bottom: 48px;
+}
+.container.team-guide-main {
+    padding: 0px 82px;
+}
+.team-guide-first-text {
+    margin-top: 70px;
+}
+.momentsimg1 img {
+    width: 95%;
+    border-radius: 8px;
+}
+
+.momentsimg1text {
+    text-align: start;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+
+.momentsimg1text h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.momentsimg1text h6 {
+    color: #ddddddba;
+}
+.container.recourd-moments-main {
+    background: #17171a;
+    padding: 79px 90px;
+}
+.momentsimg1.a {
+    margin-bottom: 32px;
+}
+
+
+.review-text {
+    text-align: start;
+    margin-top: 74px;
+}
+
+.review-text h5 {
+    color: #29d5d3;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.review-text h1 {   
+     color: #fff;
+    font-size: 57px;
+    margin-bottom: 17px;
+    margin-top: 10px;
+}
+.reviewerimage img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+.reviewerimage {
+    width: 22%;
+}
+.reviewer {
+    display: flex;
+    margin-top: 19px;
+}
+
+.reviewertext h5 {
+    color: #fff;
+    margin: 0;
+}
+
+.reviewertext {
+    text-align: start;
+    margin-left: 19px;
+}
+
+.reviewertext p {
+    color: #ddddddba;
+    margin-top: 1px;
+}
+.review {
+    padding: 90px 0;
+}
+
+.review-box {
+    text-align: start;
+    background: #17171a;
+    padding: 29px 38px;
+    border-radius: 7px;
+    transition: all 0.3s linear;
+}
+.review-box:hover{
+    border: 1px solid #29d5d3;
+}
+
+.review-box p:first-child {
+    color: #ddddddb8;
+}
+.col-lg-6.col-md-12.col-12.margin {
+    margin-top: 18px;
+}
+.container.review-main {
+    padding: 10px 92px;
+}
+.review-text p {
+    color: #ddddddb5;
+}
+
+
+.clint-access-prof i {
+    color: #29d5d3;
+    font-size: 49px;
+    margin-bottom: 9px;
+}
+.clint-access-prof h1 {
+    color: #fff;
+    position: relative;
+    font-weight: 600;
+    font-size: 37px;
+    margin: 0;
+    margin-right: 20px;
+}
+.clint-access-prof h1 span {
+    font-size: 19px;
+    position: absolute;
+    top: -3px;
+    right: 83px;
+    font-weight: 700;
+    color: #29d5d3;
+
+}
+.clint-access-prof p {
+    color: #ddddddbf;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.clint-access-prof.a h1 span {
+    right: 98px;
+}
+.clint-access-prof.a.b h1 span {
+    right: 106px;
+}
+
+.container.Story-main {
+    padding: 80px;
+}
+.card.Story-cart {
+    border: 0;
+    background: #00000094;
+    border-radius: 7px;
+    margin-bottom: 7px;
+}
+.card-body.card-texts {
+    text-align: initial;
+    color: #fff;
+    padding: 5px 33px;
+}.comments {
+    display: flex;
+    align-items: center;
+}
+
+.comments i {
+    margin-right: 10px;
+}
+
+.comments p {
+    margin: 0;
+}
+
+.commentses {
+    display: flex;
+    align-items: baseline;
+    color: #818181;
+    margin-bottom: 11px;
+}
+
+.nocomments {
+    margin-left: 14px;
+    display: flex;
+}
+
+.nocomments i {
+    margin-right: 10px;
+    font-size: 11px;
+    color: gray;
+}
+.card-body.card-texts h5 {
+    margin-top: 20px;
+}
+
+
+
 @media (max-width:768px) {
     .home-title {
         position: absolute;
@@ -356,7 +625,7 @@ background-attachment: fixed;
         margin-top: 26px;
     }
     .container.experiance-main {
-        padding: 38px 19px 52px 19px;
+        padding: 38px 20px 52px 20px;
         margin-top: 47px;
 
     }
@@ -369,7 +638,84 @@ background-attachment: fixed;
     .titleText.a h1 {
         font-size: 35px;
     }
+    .team-guide {
+        width: 100%;
+        padding: 18px 7px;
+    }
+    .team-guide-first-text h1 {
+        width: 100%;
+        font-size: 38px;
+        line-height: 43px;
+        margin-top: 12px;
+    }
+    .team-guide-first-text {
+        margin-top: 70px;
+        text-align: center;
+        margin-bottom: 38px;
+    }
  
+    .team-guide-second-image.a {
+        margin-bottom: 91px;
+    }
+    
+    .intro-title {
+        bottom: -44px;
+        padding: 3px 0;
+    }
+    .container.recourd-moments-main {
+        background: #17171a;
+        padding: 79px 12px;
+    }
+ 
+    .titleText.b h1 {
+        font-size: 31px;
+    }
+    .momentsimg1.c {
+        margin-bottom: 30px;
+    }
+    .momentsimg1.d {
+        margin-bottom: 26px;
+    }
+    .momentsimg1.e {
+        margin-bottom: 25px;
+    }
+    .container.team-guide-main {
+        padding: 0px 12px;
+    }
+    .container.review-main {
+        padding: 10px 18px;
+    }
+    .review-text {
+        text-align: center;
+    }
+
+    .review-text h1 { 
+        font-size: 41px;
+    }
+    .review-box.firsts {
+        margin-bottom: 18px;
+    }
+    .clint-access-prof {
+        margin-bottom: 60px;
+    }
+    .clint-access-prof.a h1 span {
+        right: 131px;
+    }
+    .clint-access-prof h1 span {
+        right: 115px;
+    }
+    .clint-access-prof.a.b h1 span {
+        right: 141px;
+    }
+    .container.Story-main {
+        padding: 0px 14px;
+    }
+
+    .recourd-moments {
+        margin-top: 90px;
+    }
+
+
 }
 
 

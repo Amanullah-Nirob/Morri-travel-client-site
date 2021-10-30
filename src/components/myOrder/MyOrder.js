@@ -6,7 +6,7 @@ const MyOrder = () => {
 const {user}=UseAuth()
 const [myorderitems,setMyorderitems]=useState([])
   useEffect(()=>{
-      fetch(`http://localhost:5000/orders/${user?.email}`)
+      fetch(`https://whispering-springs-16614.herokuapp.com/orders/${user?.email}`)
       .then(response=>response.json())
       .then(data=>setMyorderitems(data))
   },[user.email])
@@ -19,7 +19,7 @@ const [myorderitems,setMyorderitems]=useState([])
 const myOrderDeleteFunction=(id)=>{
     const confirmDeletealert=window.confirm(`are you sure you want to delete?`)
     if(confirmDeletealert){
-        fetch(`http://localhost:5000/orders/${id}`,{
+        fetch(`https://whispering-springs-16614.herokuapp.com/orders/${id}`,{
             method: 'delete',
        })
        .then(res=>res.json())
@@ -40,8 +40,10 @@ const myOrderDeleteFunction=(id)=>{
              <div className='titleText'>
                    <h4>My Orders</h4>
                <h1>My All Orders</h1>
+               {myorderitems.length===0&& <h5 className='text-info'>You have not placed any orders</h5>}
                </div>
-        <Row xs={1} md={4} className="g-4">
+      {myorderitems.length===0?<div class="spinner-border text-info" role="status"><span class="visually-hidden">Loading...</span></div>
+       :<Row xs={1} md={4} className="g-4">
                 {
                 myorderitems.map((order)=><Col>
                 <Card className='mycard'>
@@ -61,7 +63,7 @@ const myOrderDeleteFunction=(id)=>{
                 </Card>
               </Col>)
                 }
-        </Row>
+        </Row>}
 
        
         </div>
