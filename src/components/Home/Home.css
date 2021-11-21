@@ -31,9 +31,11 @@
     font-weight: 900;
     text-transform: capitalize;
 }
+
 button.navbar-toggler {
     border: 1px solid #fff;
 }
+
 .navbars{
     display: none;
 }

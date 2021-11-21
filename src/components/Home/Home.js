@@ -14,7 +14,7 @@ import BackgroundVideo from '../BackgroundVideo/BackgroundVideo'
 import Story from './Story';
 const Home = () => {
     return (
-<div>
+<div className='page-home'>
 <HomeBenner></HomeBenner>
 <AxtraInformation></AxtraInformation>
 <Intruduction></Intruduction>
