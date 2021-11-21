@@ -1,7 +1,7 @@
 # Morii Travel Website
 
-### clint side live website link [Morii Travel website clint side (live link)](https://morii-travel-f201a.web.app/).
-### server side code link  [Morii Travel website server side (code link)](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-nirub-khan)
+### [Morii Travel website clint side (demo website)](https://morii-travel-f201a.web.app/).
+
      
 ## Available information 1
 ### What is this website? Why would you visit this website?
